@@ -6,5 +6,5 @@ st.write("""
 Hello *world!*
 """)
  
-df = pd.read_csv("cardio_train.csv")
+df = pd.read_csv("new_csv.csv")
 st.line_chart(df)
