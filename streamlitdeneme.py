@@ -1,10 +1,4 @@
 import streamlit as st
-import pandas as pd
- 
-st.write("""
-# My first app
-Hello *world!*
-""")
- 
-df = pd.read_csv("new_csv.csv")
-st.line_chart(df)
+
+
+input1 = st.number_input("Bir yaşınızı giriniz:" min_value = "0", max_value = "99", value = "0", step = "1")
